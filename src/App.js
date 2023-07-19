@@ -1,13 +1,11 @@
-import Google from './component/Google';
 import './App.css';
-import Buttons from './component/Buttons';
+import Weather from './component/Weather';
 
 function App() {
   return (
     <div className='outer'>
       <div className="App">
-        <Google/>
-        <Buttons/>
+        <Weather/>
       </div>
     </div>
   );
